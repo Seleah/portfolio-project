@@ -73,6 +73,7 @@ figcaption {
     float: right;
     font-size: 1em;
     margin: 25px 10px auto auto;
+    color: 2d3c49;
 }
 
 .header-name {
@@ -106,3 +107,27 @@ figcaption {
     width: 100%;
     object-fit: scale-down;
 }
+
+/*
+ *
+ * Project Collage
+ *
+ */
+ 
+ .projects-collage {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    color: #7d97ad;
+    width: 100%;
+ }
+ 
+ .featured-collage {
+    display: block;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.5em;
+    color: #7d97ad;
+    margin-top: 20px;
+ }
