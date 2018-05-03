@@ -7,6 +7,8 @@ body, html {
 
 body {
     font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
 }
 
 /*main {*/
@@ -35,8 +37,24 @@ main {
     margin-top: 20px;
 }
 
-figcaption {
-    font-family: 'Roboto', sans-serif;
+figure {
+    margin: 0;
+    width: 100%;
+    display: !important block;
+    text-align: center;
+}
+
+figure img {
+    width: 90%;
+    height: auto;
+    object-fit: scale-down;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+    margin: 30px auto 0 auto;
+}
+
+footer a {
+    font-size: 2em;
+    display: inline-block;
 }
 
 /*
@@ -49,6 +67,14 @@ figcaption {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+}
+
+.section-title {
+    display: block;
+    text-align: center;
+    font-weight: 200;
+    font-size: 30px;
+    color: #7d97ad;
 }
 
 /*
@@ -73,7 +99,7 @@ figcaption {
     float: right;
     font-size: 1em;
     margin: 25px 10px auto auto;
-    color: 2d3c49;
+    color: #2d3c49;
 }
 
 .header-name {
@@ -114,20 +140,22 @@ figcaption {
  *
  */
  
- .projects-collage {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2em;
+.projects-collage {
+    font-size: 1.65em;
     color: #7d97ad;
-    width: 100%;
- }
- 
- .featured-collage {
-    display: block;
+    background-color: #efefef;
+    padding: 20px 0;
+    margin: 30px 0;
+}
+
+/*
+ *
+ * Project Collage
+ *
+ */
+
+.social {
+    color: #02b3e4;
     text-align: center;
-    font-weight: 200;
-    font-size: 1.5em;
-    color: #7d97ad;
-    margin-top: 20px;
- }
+    margin: 20px 10px;
+}
